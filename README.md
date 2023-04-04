@@ -6,7 +6,7 @@
 
 ### Previously
 
-My previous repo [QifHE/3D-Point-Cloud-Rendering-with-Mitsuba (github.com)](https://github.com/QifHE/3D-Point-Cloud-Rendering-with-Mitsuba) provides a method to batch render point clouds by [Mitsuba](https://github.com/mitsuba-renderer/mitsuba2), however, it is inconveniet to adjust the point cloud objects, since the parameters can only be set in the XML configuration file, and it cannot output images with a transparent background. Therefore, this repo aims to develop an alternative method based on the very popular Blender, so people can directly view the shading results in the software and modify the parameters in real time according to their needs.
+My previous repo [QifHE/3D-Point-Cloud-Rendering-with-Mitsuba (github.com)](https://github.com/QifHE/3D-Point-Cloud-Rendering-with-Mitsuba) provides a method to batch render point clouds by [Mitsuba](https://github.com/mitsuba-renderer/mitsuba2), however, it is inconvenient to adjust the point cloud objects, since the parameters can only be set in the XML configuration file, and it cannot output images with a transparent background. Therefore, this repo aims to develop an alternative method based on the very popular Blender, so people can directly view the shading results in the software and modify the parameters in real time according to their needs.
 
 ### How To Use
 
