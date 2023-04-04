@@ -10,6 +10,10 @@ My previous repo [QifHE/3D-Point-Cloud-Rendering-with-Mitsuba (github.com)](http
 
 ### How To Use
 
+Tutorial Video if you don't want to read.
+
+[![Tutorial Video](image/README/1680618245812.png)](tutorial_blenderpointcloud.mp4)
+
 Only limited file formats can be imported into Blender, so please convert your point cloud files into `.ply` extension at first, whose method can be easily found online or by asking ChatGPT.
 
 This is a Blender 3.x preset so you can either open the `PointCloudRenderPreset.blend` file directly then replace the mesh object named  `Airplane` inside and do whatever you want, or append the following in the `PointCloudRenderPreset.blend` file into your Blender project.
