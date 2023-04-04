@@ -12,7 +12,7 @@ My previous repo [QifHE/3D-Point-Cloud-Rendering-with-Mitsuba (github.com)](http
 
 Tutorial Video if you don't want to read.
 
-![tutorial](tutorial_blenderpointcloud.mp4)
+[![Tutorial Video](image/README/1680618245812.png)](tutorial_blenderpointcloud.mp4)
 
 Only limited file formats can be imported into Blender, so please convert your point cloud files into `.ply` extension at first, whose method can be easily found online or by asking ChatGPT.
 
