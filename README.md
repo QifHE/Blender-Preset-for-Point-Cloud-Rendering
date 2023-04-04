@@ -10,7 +10,7 @@ My previous repo [QifHE/3D-Point-Cloud-Rendering-with-Mitsuba (github.com)](http
 
 ### How To Use
 
-Tutorial Video if you don't want to read.
+**Click** the below for the **Tutorial Video** if you don't want to read.
 
 [![Tutorial Video](image/README/1680618245812.png)](tutorial_blenderpointcloud.mp4)
 
