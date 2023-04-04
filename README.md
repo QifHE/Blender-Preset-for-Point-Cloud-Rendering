@@ -1,18 +1,18 @@
-# Blender Preset for Point Cloud Rendering
+# Blender Preset for Point Cloud Batch Rendering
 
- A simple and convenient Blender EEVEE preset for the rendering of point clouds suitable for academic papers.
+ A simple and convenient Blender EEVEE preset for the customable and automated rendering of point clouds suitable for academic papers.
 
 ![cover](image/README/cover.jpg)
 
 ### Previously
 
-In my previous repo, [QifHE/3D-Point-Cloud-Rendering-with-Mitsuba (github.com)](https://github.com/QifHE/3D-Point-Cloud-Rendering-with-Mitsuba) provides a method to render point clouds by [Mitsuba](https://github.com/mitsuba-renderer/mitsuba2), however, it is inconveniet to adjust the point cloud objects, since the parameters can only be set in the XML configuration file, and it cannot output images with a transparent background. Therefore, this repo aims to develop an alternative method based on the very popular Blender, so people can directly view the shading results in the software and modify the parameters in real time according to their needs.
+My previous repo [QifHE/3D-Point-Cloud-Rendering-with-Mitsuba (github.com)](https://github.com/QifHE/3D-Point-Cloud-Rendering-with-Mitsuba) provides a method to batch render point clouds by [Mitsuba](https://github.com/mitsuba-renderer/mitsuba2), however, it is inconveniet to adjust the point cloud objects, since the parameters can only be set in the XML configuration file, and it cannot output images with a transparent background. Therefore, this repo aims to develop an alternative method based on the very popular Blender, so people can directly view the shading results in the software and modify the parameters in real time according to their needs.
 
 ### How To Use
 
 Only limited file formats can be imported into Blender, so please convert your point cloud files into `.ply` extension at first, whose method can be easily found online or by asking ChatGPT.
 
-This is a Blender preset so you can either open it directly then replace the mesh object named `Airplane` inside, or append the following in the `PointCloudRenderPreset.blend` file into your Blender project.
+This is a Blender preset so you can either open the `PointCloudRenderPreset.blend` file directly then replace the mesh object named  `Airplane` inside and do whatever you want, or append the following in the `PointCloudRenderPreset.blend` file into your Blender project.
 
 - `Material/points`
 - `Material/shadowcatcher`
@@ -45,9 +45,21 @@ After all the steps above, go to the `Render` tab and `Render Image`. Then you a
 
 ![1680602836811](image/README/1680602836811.png)
 
-### To Do
+### Automation for Batch Rendering
 
-Scripts that batch load and render point clouds by Blender.
+Go to the `Scripting` tab. If the `batch_render.py` is not there, copy the code from `batch_render.py` of this repo into the script editor. Modify the `ply_dir` and `output_folder` varaibles to your `.ply` input and `.png` output directories. Now, assume that all your `.ply` point clouds have similar initial location and scale. You import one of your `.ply` file, delete the default `Airplane` then adjust the  `Transform `and `Radius` in `Geometry Nodes`, color in `Shading`, and camera position in `Layout` as mentioned above. Then delete the imported object, go back to `Scripting` and run the script by the run botton. If you want to monitor the progress, open `Toggle System Console` in the `Window` dropdown on the top. Then you are done!
+
+![1680612738029](image/README/1680612738029.png)
+
+![1680612689620](image/README/1680612689620.png)
+
+![1680612759595](image/README/1680612759595.png)
+
+![1680612789457](image/README/1680612789457.png)
+
+![1680613088783](image/README/1680613088783.png)
+
+![1680613525904](image/README/1680613525904.png)
 
 ### Acknowledgement
 
