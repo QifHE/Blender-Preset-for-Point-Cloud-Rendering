@@ -67,7 +67,7 @@ Go to the `Scripting` tab. If the `batch_render.py` is not there, copy the code 
 
 ### PLY Conversion and Custom Coloring
 
-Modify the input and output pathes in  `convert_to_ply.py` file, then run the script. This script also provides an example function to write the color attribute into `.ply` files. The default `defind_color()` function randomly writes Red, Green, Blue, and Yellow into the `.ply` file. You can switch from the `Preset Color` node to `Color From Input Data` node in the `points` material's `Shading` nodetree to see the attribute color.
+Modify the input and output pathes in  `convert_to_ply.py` file, then run the script. It supports conversion from ` .npy, .pcd, .ply, h5, .txt, .xyz, .pts`. This script also provides an example function to write the color attribute into  `.ply `files. The default `defind_color()`function randomly writes Red, Green, Blue, and Yellow into the `.ply `file. You can switch from the `Preset Color `node to `Color From Input Data `node in the `points `material's `Shading` nodetree to see the attribute color.
 
 ![1680860543065](image/README/1680860543065.png)
 
