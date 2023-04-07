@@ -75,3 +75,4 @@ Modify the input and output pathes in  `convert_to_ply.py` file, then run the sc
 
 - [TombstoneTumbleweedArt/import-ply-as-verts: New Blender 3.0* / 3.1 PLY importer v2.0 for point clouds and nonstandard models. (github.com)](https://github.com/TombstoneTumbleweedArt/import-ply-as-verts) Thank them for the method to convert `.ply` vertices into point instances.
 - [Blender Shadow Catcher - Enable Shadow Catcher in both EEVEE &amp; Cycles - YouTube](https://www.youtube.com/watch?v=xFi_88TIQgc) Thank them for the method to create a workaround for the shadow catcher in the EEVEE engine.
+- [PoinTr/io.py at 1dc2cfcb90ecbda64880c28e0a4f94dd41d879c8 · yuxumin/PoinTr (github.com)](https://github.com/yuxumin/PoinTr/blob/1dc2cfcb90ecbda64880c28e0a4f94dd41d879c8/datasets/io.py)
