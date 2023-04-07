@@ -14,7 +14,7 @@ My previous repo [QifHE/3D-Point-Cloud-Rendering-with-Mitsuba (github.com)](http
 
 [![Tutorial Video](image/README/1680618245812.png)](tutorial_blenderpointcloud.mp4)
 
-Only limited file formats can be imported into Blender, so please convert your point cloud files into `.ply` extension at first, whose method can be easily found online or by asking ChatGPT.
+Only limited file formats can be imported into Blender, so please convert your point cloud files into `.ply` extension at first, you can use `convert_to_ply.py` provided by this repo. The guide to this script is at the bottom of this readme.
 
 This is a Blender 3.x preset so you can either open the `PointCloudRenderPreset.blend` file directly then replace the mesh object named  `Airplane` inside and do whatever you want, or append the following in the `PointCloudRenderPreset.blend` file into your Blender project.
 
@@ -64,6 +64,12 @@ Go to the `Scripting` tab. If the `batch_render.py` is not there, copy the code 
 ![1680613088783](image/README/1680613088783.png)
 
 ![1680613525904](image/README/1680613525904.png)
+
+### PLY Conversion and Custom Coloring
+
+Modify the input and output pathes in  `convert_to_ply.py` file, then run the script. This script also provides an example function to write the color attribute into `.ply` files. The default `defind_color()` function randomly writes Red, Green, Blue, and Yellow into the `.ply` file. You can switch from the `Preset Color` node to `Color From Input Data` node in the `points` material's `Shading` nodetree to see the attribute color.
+
+![1680860543065](image/README/1680860543065.png)
 
 ### Acknowledgement
 
